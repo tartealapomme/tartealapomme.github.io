@@ -1,4 +1,4 @@
-#img_projets{
+#img_projet{
     /*max-width: 10%;
     max-height: 10%;*/
     height: 15%;
@@ -6,7 +6,7 @@
 }
 #parag{
     align-items: center;
-    text-align: center;
+    text-align: left;
     align-content: center;
     padding-left: 2%;
 }
