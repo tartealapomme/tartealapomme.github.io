@@ -5,9 +5,9 @@
     width: 5%;
 }
 #parag{
-    align-items: left;
-    text-align: left;
-    align-content: left;
+    align-items: center;
+    text-align: center;
+    align-content: center;
     padding-left: 2%;
 }
 h5{
