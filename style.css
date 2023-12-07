@@ -1,7 +1,4 @@
-.carousel1{
-    width: 10%;
-}
-
-.d-block w-100{
-    width: 100px;;
+#carousel1 {
+    max-width: 800px; /* Remplacez la valeur par la largeur maximale souhaitée */
+    margin: auto; /* Centre le carrousel horizontalement */
 }
