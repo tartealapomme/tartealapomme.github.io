@@ -1,16 +1,7 @@
-#carouselExampleControls {
-    max-width: 20%; /* Remplacez la valeur par la largeur maximale souhaitée */
-    margin: auto; /* Centre le carrousel horizontalement */
-}
-.carousel-control-prev-icon{
-    color: black;
-    background-color: black;
-}
-.carousel-control-next-icon{
-    color: black;
-    background-color: black;
+#img_projets{
+    max-width: 20%;
 }
 #parag{
     text-align: center;
-    
+
 }
