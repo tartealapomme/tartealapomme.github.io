@@ -33,10 +33,12 @@ h3{
     min-height: 20%;
 }
 #conteneur_gauche{
+    max-width: 50%;
     padding: 2%;
     float: left;
 }
 #conteneur_droit{
+    max-width: 50%;
     padding: 2%;
     float: right;
 }
