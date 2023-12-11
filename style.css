@@ -31,8 +31,9 @@ h3{
     align-content: center;
 }
 #conteneur{
+    display: flex;
     padding: 2%;
-    min-height: 20%;
+    min-height: 30%;
     border-bottom: 1px solid black;
 }
 #conteneur_gauche{
