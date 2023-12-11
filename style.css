@@ -31,3 +31,11 @@ h3{
 #conteneur{
     padding: 2%;
 }
+#conteneur_gauche{
+    padding: 2%;
+    float: left;
+}
+#conteneur_droit{
+    padding: 2%;
+    float: right;
+}
