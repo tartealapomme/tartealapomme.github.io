@@ -31,7 +31,6 @@ h3{
     align-content: center;
 }
 #conteneur{
-    display: flex;
     padding: 7%;
     margin: 2%;
     border-bottom: 1px solid black;
