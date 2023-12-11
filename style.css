@@ -32,8 +32,8 @@ h3{
 }
 #conteneur{
     display: flex;
-    padding: 2%;
-    min-height: 30%;
+    padding: 7%;
+    margin: 2%;
     border-bottom: 1px solid black;
 }
 #conteneur_gauche{
