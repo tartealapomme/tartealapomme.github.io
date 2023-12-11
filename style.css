@@ -4,7 +4,7 @@
     height: 50%;
 }
 #img_ecole{
-    height: 50%;
+    height: 20%;
 }
 #parag{
     align-items: center;
@@ -30,6 +30,7 @@ h3{
 }
 #conteneur{
     padding: 2%;
+    min-height: 20%;
 }
 #conteneur_gauche{
     padding: 2%;
