@@ -33,6 +33,8 @@ h3{
 #conteneur{
     padding: 1%;
     margin: 2%;
+    min-height: 5%;
+    max-height: 10%;
 }
 #conteneur_gauche{
     max-width: 50%;
