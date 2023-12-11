@@ -47,5 +47,6 @@ h3{
     float: right;
 }
 #separation{
+    padding: 10%;
     border-bottom: 1px solid black;
 }
