@@ -41,11 +41,13 @@ h3{
     max-height: 10%;
 }
 #conteneur_gauche{
+    display: inline;
     max-width: 50%;
     padding: 2%;
     float: left;
 }
 #conteneur_droit{
+    display: inline;
     max-width: 50%;
     padding: 2%;
     float: right;
