@@ -36,7 +36,7 @@ h3{
     align-content: center;
 }
 #conteneur{
-    display: inline;
+    /*display: inline;*/
     padding: 1%;
     margin: 2%;
     min-height: 5%;
@@ -46,14 +46,14 @@ h3{
     max-width: 50%;
     padding: 2%;
     margin:1%;
-    /*float: left;*/
+    float: left;
     flex: 1;
 }
 #conteneur_droit{
     max-width: 50%;
     padding: 2%;
     margin:1%;
-    /*float: right;*/
+    float: right;
     flex: 1;
 }
 #separation{
