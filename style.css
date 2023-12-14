@@ -37,6 +37,7 @@ h3{
 }
 #conteneur{
     /*display: inline;*/
+    display: flex;
     padding: 1%;
     margin: 2%;
     min-height: 5%;
