@@ -36,8 +36,8 @@ h3{
     align-content: center;
 }
 #conteneur{
-    /*display: inline;*/
-    display: flex;
+    display: inline;
+    /*display: flex;*/
     padding: 1%;
     margin: 2%;
     min-height: 5%;
