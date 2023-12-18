@@ -37,22 +37,22 @@ h3{
     align-content: center;
 }
 #conteneur{
+    height: fit-content;
     display: inline;
-    /*display: flex;*/
     padding: 1%;
     margin: 2%;
     min-height: 5%;
     max-height: 10%;
 }
 #conteneur_gauche{
-    max-width: 50%;
+    max-width: 45%;
     padding: 2%;
     margin:1%;
     float: left;
     flex: 1;
 }
 #conteneur_droit{
-    max-width: 50%;
+    max-width: 45%;
     padding: 2%;
     margin:1%;
     float: right;
