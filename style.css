@@ -45,6 +45,7 @@ h3{
     max-height: 10%;
 }
 #conteneur_gauche{
+    width: 45%;
     max-width: 45%;
     padding: 2%;
     margin:1%;
@@ -52,6 +53,7 @@ h3{
     flex: 1;
 }
 #conteneur_droit{
+    width: 45%;
     max-width: 45%;
     padding: 2%;
     margin:1%;
