@@ -1,66 +1,100 @@
-#img_projet{
-    float: left;
-    max-height: 40%;
-    max-width: 20%;
+/* Estilos para la página entera */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f1;
 }
-#img_ecole{
-    max-height: 30%;
-    max-width: 30%;
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
 }
-#img{
-    max-height: 40%;
-    max-width: 20%;
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
 }
-#parag{
-    align-items: center;
+
+/* Estilos de la página Competencias */
+#conteneur {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+#conteneur_gauche {
+    width: 45%;
+    padding: 1rem;
+}
+
+#conteneur_droit {
+    width: 45%;
+    padding: 1rem;
+}
+
+#parag {
     text-align: left;
-    align-content: center;
-    padding-left: 2%;
 }
-#parag2{
-    align-items: center;
+
+#separation {
+    border-bottom: 1px solid #eee;
+    margin: 2rem 0;
+}
+
+/* Estilos generales */
+a {
+    color: #187de8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #187de8;
+    background-color: #fff;
+    color: #187de8;
     text-align: center;
-    align-content: center;
-    padding-left: 2%;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
-h1{
-    padding: 1%;
+
+.btn:hover {
+    background-color: #187de8;
+    color: #fff;
 }
-h5{
-    align-items: center;
-    text-align: center;
-    align-content: center;
-}
-h3{
-    align-items: center;
-    text-align: center;
-    align-content: center;
-}
-#conteneur{
-    height: fit-content;
-    display: inline;
-    padding: 1%;
-    margin: 2%;
-    min-height: 5%;
-    max-height: 10%;
-}
-#conteneur_gauche{
-    width: 45%;
-    max-width: 45%;
-    padding: 2%;
-    margin:1%;
-    float: left;
-    flex: 1;
-}
-#conteneur_droit{
-    width: 45%;
-    max-width: 45%;
-    padding: 2%;
-    margin:1%;
-    float: right;
-    flex: 1;
-}
-#separation{
-    padding: 7%;
-    border-bottom: 1px solid black;
+
+@media (max-width: 768px) {
+    #conteneur {
+        width: 90%;
+    }
+
+    #conteneur_gauche {
+        width: 100%;
+    }
+
+    #conteneur_droit {
+        width: 100%;
+    }
 }
