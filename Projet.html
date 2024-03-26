@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
@@ -9,10 +8,31 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      #conteneur-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      #conteneur-table th,
+      #conteneur-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+      #conteneur-table th {
+        background-color: #ddd;
+      }
+      .project-title {
+        cursor: pointer;
+      }
+      .collapse-content {
+        display: none;
+      }
+      .collapse-content.show {
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -40,137 +60,68 @@
         </li>
       </ul>
     </nav>
-    <div class="container">
-      <h3>Projets de cours</h3>
-      <hr />
-      <div class="row">
-        <div class="col-md-6">
-          <h5 class="mb-0" id="projetTitle1">
-            Réalisation d'un jeu de chasse au monstre en tour par tour.
-          </h5>
-          <button
-            type="button"
-            class="btn btn-link"
-            data-bs-toggle="collapse"
-            data-bs-target="#projet1"
-            aria-expanded="false"
-            aria-controls="projet1"
-          >
-            Découvrir
-          </button>
-          <div
-            class="collapse"
-            id="projet1"
-            data-bs-parent="#conteneur"
-          >
-            <p class="mt-2">
-              Dans le cadre d'un projet de 2e année de BUT, nous avons réalisé dans
-              un groupe de 5 étudiants un jeu de chasse au monstre en tour par
-              tour. Ce jeu est développé en java et fait appel à des notions
-              tels que la conception d'un modèle de donnée, la création
-              d'algorithme de génération aléatoire, du développement graphique
-              en Javafx, la création d'IA pouvant jouer à la place d'un des
-              deux joueurs, etc... De plus, cela a été une bonne expérience de
-              travail collectif de partage des tâches et de planification et
-              création en collaboration.
-            </p>
-            <img
-              src="imgs/ChasseAuMonstre/menu.png"
-              alt="Chasse au monstre menu"
-              class="img-fluid mb-3"
-            />
-            <img
-              src="imgs/ChasseAuMonstre/monstre1.png"
-              alt="Chasse au monstre monstre1"
-              class="img-fluid mb-3"
-            />
-            <img
-              src="To expand the project information by clicking on its title, you can use the Bootstrap collapse component. Here'simgs/ChasseAuMonstre
-``` an example of how you can modify your code to achieve this:
-
-```html
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Portfolio Duplouy Nathan</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
-  </head>
-  <body>
-    <header>
-      <h1 class="display1">Projet</h1>
-    </header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <ul class="navbar-nav">
-        <!-- Other navigation links -->
-        <li class="nav-item active">
-          <a class="nav-link" href="Projet.html">Présentation des projets</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="Formation.html">Formation</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="container">
-      <h3>Projets de cours</h3>
-      <hr />
-      <div class="row">
-        <div class="col-md-6">
-          <h5 class="mb-0" id="projetTitle1">
-            <button
-              type="button"
-              class="btn btn-link"
-              data-bs-toggle="collapse"
-              data-bs-target="#projet1"
-              aria-expanded="false"
-              aria-controls="projet1"
-            >
-              Réalisation d'un jeu de chasse au monstre en tour par tour
-            </button>
-          </h5>
-          <div
-            class="collapse"
-            id="projet1"
-            data-bs-parent="#conteneur"
-          >
-            <p class="mt-2">
-              Dans le cadre d'un projet de 2e année de BUT, nous avons réalisé dans
-              un groupe de 5 étudiants un jeu de chasse au monstre en tour par
-              tour. Ce jeu est développé en java et fait appel à des notions
-              tels que la conception d'un modèle de donnée, la création
-              d'algorithme de génération aléatoire, du développement graphique
-              en Javafx, la création d'IA pouvant jouer à la place d'un des
-              deux joueurs, etc... De plus, cela a été une bonne expérience de
-              travail collectif de partage des tâches et de planification et
-              création en collaboration.
-            </p>
-            <img
-              src="imgs/ChasseAuMonstre/menu.png"
-              alt="Chasse au monstre menu"
-              class="img-fluid mb-3"
-            />
-            <img
-              src="imgs/ChasseAuMonstre/monstre1.png"
-              alt="Chasse au monstre monstre1"
-              class="img-fluid mb-3"
-            />
-          </div>
-        </div>
-      </div>
+  <h3>Projets de cours</h3><br>
+  <div id="conteneur">
+    <h5>Réalisation d'un jeu de chasse au monstre en tour par tour.</h5>
+    <div id="conteneur">
+        <br>
+        <p id="parag">
+          Dans le cadre d'un projet de 2e année de BUT, nous avons réalisé dans un groupe de 5 étudiants un jeu de chasse au monstre en tour par tour.
+          Ce jeu est développé en java et fait appel à des notions tels que la conception d'un modèle de donnée, la création d'algorithme de génération
+          aléatoire, du développement graphique en Javafx, la création d'IA
+          pouvant jouer à la place d'un des deux joueurs, etc... De plus, cela a été une bonne expérience de travail
+          collectif de partage des tâches et de planification et création en collaboration.
+        </p>
+        <br>
+        <img id="img_projet" src="imgs/ChasseAuMonstre/menu.png">
+        <img id="img_projet" src="imgs/ChasseAuMonstre/monstret1.png">
+        <img id="img_projet" src="imgs/ChasseAuMonstre/chasseurt2.png">
+        <img id="img_projet" src="imgs/ChasseAuMonstre/chasseurtfin.png">
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    ></script>
+    <br><br><br><br><br><br><br><div id="separation"></div><br>
+    <h5>Réalisation d'un jeu d'exploration de donjon.</h5>
+    <div id="conteneur">
+        <br>
+        <p id="parag">
+          Dans le cadre d'un projet de 2e année de BUT, nous avons réalisé dans un groupe de 5 étudiants un jeu d'exploration de donjon.
+
+          Ce jeu est développé en Java et fait appel à des notions tels que la conception d'un modèle de donnée, la
+          création d'algorithme de génération aléatoire et tout particulièrement la gestion d'un projet en travaillant
+          avec des méthodes agiles afin de s'adapter aux méthodes de travail professionnelles en entreprise.
+          Dans ce jeu, le donjon était généré aléatoirement de façon procédurale afin de jouer une nouvelle partie a
+          chaque lancement. 
+        </p>
+        <br>
+        <img id="img" src="imgs/AgileDonjon/Capture d'écran 2023-12-12 174354.png">
+        <img id="img" src="imgs/AgileDonjon/Capture d'écran 2023-12-12 174740.png">
+        <img id="img" src="imgs/AgileDonjon/radiateur.jpg">
+        <img id="img" src="imgs/AgileDonjon/radiateur2.jpg">
+        <img id="img" src="imgs/AgileDonjon/radiateur3.jpg">
+    </div>
+    <br><br><br><br><br><br>
+    <h5></h5>
+    <h3>Expériences Profesionnelles</h3>
+    <div id="conteneur">
+      <h5>Stage en développement informatique à la DREAL de Poitiers</h5>
+      <div id="conteneur">
+          <br>
+          <p id="parag">
+            Dans le cadre d'un stage de 2e année de BTS informatique du 10 mai 2023 au 26 juin 2023, j'ai réalisé au sein du
+            département informatique de la structure des applications d'analyse de données en python ainsi
+            que la modification d'un site interne de visualisation et de traitement de données.
+          </p>
+          <br>
+          <!----------------------------------------------------------------
+          <img id="img_projet" src="imgs/ChasseAuMonstre/menu.png">
+          <img id="img_projet" src="imgs/ChasseAuMonstre/monstret1.png">
+          <img id="img_projet" src="imgs/ChasseAuMonstre/chasseurt2.png">
+          <img id="img_projet" src="imgs/ChasseAuMonstre/chasseurtfin.png">
+          ---------------------------------------------------------------->
+      </div>
+    <!--<h5>Bot Discord</h5>
+    <h5>Jeu de Strategie</h5>
+    <h5></h5>-->
+
+  </div>
   </body>
 </html>
