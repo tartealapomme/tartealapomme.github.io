@@ -26,14 +26,16 @@ p {
     border-radius: 0.5rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
 }
 
-#conteneur_gauche, #conteneur_droit {
+#conteneur_gauche {
     width: 45%;
     padding: 1rem;
-    box-sizing: border-box;
+}
+
+#conteneur_droit {
+    width: 45%;
+    padding: 1rem;
 }
 
 #parag {
@@ -45,20 +47,6 @@ p {
     margin: 2rem 0;
 }
 
-/* Media query for image styling */
-@media (max-width: 768px) {
-    #conteneur_gauche, #conteneur_droit {
-        width: 100%;
-    }
-
-    #img_projet {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-/* Shared image styling */
-#img_projet {
-    width: 100%;
-    height: auto;
+img{
+    max-width: 50%;
 }
