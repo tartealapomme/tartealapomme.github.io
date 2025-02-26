@@ -87,8 +87,7 @@ img{
     margin-top: 50px;
 }
 .logo {
-    max-width: 50%;
-    width:auto;
+    width:100px;
     cursor: pointer;
 }
 .modal {
