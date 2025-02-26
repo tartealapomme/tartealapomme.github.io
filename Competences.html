@@ -21,8 +21,33 @@
   </nav>
   <div id="conteneur">
     <p id="parag">
-      Lors de mes études, j'ai pu développer de nombreuses compétences informatiques sur de nombreux langages tels que:
-      <br>- php
+      Lors de mes études, j'ai pu développer de nombreuses compétences informatiques sur de nombreux langages de programmations et diverses technologies.
+      <br><br>
+      <div class="logo-container">
+        <img src="logo1.png" alt="Logo 1" class="logo" onclick="openModal('Texte pour logo 1')">
+        <img src="logo2.png" alt="Logo 2" class="logo" onclick="openModal('Texte pour logo 2')">
+      </div>
+      
+      <div id="modal" class="modal">
+          <div class="modal-content">
+              <p id="modal-text"></p>
+              <button class="close-btn" onclick="closeModal()">Fermer</button>
+          </div>
+      </div>
+      
+      <script>
+          function openModal(text) {
+              document.getElementById('modal-text').innerText = text;
+              document.getElementById('modal').style.display = 'flex';
+          }
+          function closeModal() {
+              document.getElementById('modal').style.display = 'none';
+          }
+      </script>
+      
+      
+      
+      - php
       <br>- python
       <br>- Java
       <br>- c
