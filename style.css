@@ -16,6 +16,9 @@ p {
     margin-bottom: 1.5rem;
 }
 
+#display1{
+    padding-left: 10%;
+}
 /* Estilos de la página Competencias */
 #conteneurGlobal {
     margin: 0 auto;
