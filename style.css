@@ -43,9 +43,18 @@ header{
     border-radius: 0.5rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     margin-top: 2rem;
-    text-align: start;
-    /*text-align: justify;*/
-    text-align: left;
+}
+
+table {
+    width: 100%; /* Ajuste la largeur du tableau */
+    border-collapse: collapse; /* Supprime l'espace entre les bordures */
+}
+
+td, th {
+    text-align: center; /* Centre le texte horizontalement */
+    vertical-align: top; /* Aligne le contenu en haut */
+    padding: 10px; /* Ajoute un peu d'espace intérieur */
+    border: 1px solid black; /* Ajoute des bordures pour visibilité */
 }
 
 #conteneur_gauche {
