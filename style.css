@@ -110,7 +110,7 @@ img{
 }
 .close-btn {
     cursor: pointer;
-    background: red;
+    background: darkgray;
     color: white;
     border: none;
     padding: 10px;
