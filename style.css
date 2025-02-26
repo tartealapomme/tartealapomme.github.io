@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
 }
 
+h3{
+    text-align: center;
+}
+
 p {
     font-size: 1.1rem;
     line-height: 1.5;
@@ -20,12 +24,14 @@ header{
     text-align: center;
 }
 
-/*#display1{
-    margin-left: 10%;
-    text-align: center;
-}*/
-/* Estilos de la página Competencias */
 #conteneurGlobal {
+    align-items: center;
+    align-items: start;
+    align-content: center;
+    align-content: start;
+
+    text-align: center;
+    text-align: start;
     margin: 0 auto;
     width: 100%;
     /*max-width: 1000px;*/
@@ -108,16 +114,4 @@ img{
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
-}
-
-table {
-    width: 100%; /* Ajuste la largeur du tableau */
-    border-collapse: collapse; /* Supprime l'espace entre les bordures */
-}
-
-td, th {
-    text-align: center; /* Centre le texte horizontalement */
-    vertical-align: top; /* Aligne le contenu en haut */
-    padding: 10px; /* Ajoute un peu d'espace intérieur */
-    border: 1px solid black; /* Ajoute des bordures pour visibilité */
 }
