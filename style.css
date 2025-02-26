@@ -85,9 +85,9 @@ img{
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
-    max-width: 70%;
 }
 .logo {
+    max-width: 50%;
     width:auto;
     cursor: pointer;
 }
