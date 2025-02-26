@@ -87,7 +87,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     justify-content: center;
@@ -108,4 +108,16 @@ img{
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+table {
+    width: 100%; /* Ajuste la largeur du tableau */
+    border-collapse: collapse; /* Supprime l'espace entre les bordures */
+}
+
+td, th {
+    text-align: center; /* Centre le texte horizontalement */
+    vertical-align: top; /* Aligne le contenu en haut */
+    padding: 10px; /* Ajoute un peu d'espace intérieur */
+    border: 1px solid black; /* Ajoute des bordures pour visibilité */
 }
